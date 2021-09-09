@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+:root{
+    --color-:blue;
+    --color1-:rgb(60, 76, 163);
+}
+
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;font-family: 'Itim', cursive;
+    
+}
+/*body{
+    width: 100%;
+}*/
+
+nav ul{
+    display: flex;
+    position: relative;
+   
+    /*justify-content: center;
+    align-items: center;*/
+}
+   
+   
+
+nav ul li{
+    display: flex;
+    position: relative;
+    padding: 2em ;
+   
+    top: 2em;
+  list-style: none;
+}
+   
+   
+nav ul li a{
+   font-size: 25px;
+   font-family: 500;
+   text-decoration: none;
+   color: var(--color-);
+}
+nav ul li a:hover{
+    background: var(--color-);
+    color: white;
+    border-radius: 5px;
+}
+.bx{
+  visibility: hidden;
+}
+.para{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: var(--color-);
+    
+    /* left: 10%; */
+    /* right: -10%; */
+    top: 3em;
+    text-decoration: 2px underline;
+}
+span{
+    color:mediumpurple;
+}
+.box{
+    display: flex;
+    position: relative;
+    width: 100%;height: 40vh;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    top: 3em;
+
+}
+.box img{
+    width: 300px;height: 250px;
+    border-radius: 50px;
+    margin: 0 .5em 0 .5em;
+  
+    
+  
+}
+.box4{
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    width: 350px;height: 300px;
+   top: 9em;
+  left: 20%;
+    margin: auto;
+}
+h2{
+    color: var(--color-);
+    text-align: center;
+    margin: auto;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+
+
+}
+.image{
+    display: inline-block;
+    position: relative;
+    width: 600px;
+    height: 400px;
+   
+    justify-content: center;
+    margin: auto;
+    bottom: 17em;
+    left: 140%;
+}
+.image img{
+    width: 500px;height: 300px;
+border-radius: 50px;
+justify-content: center;
+margin: auto;
+}
+.box1{
+    display: flex;
+    position: relative;
+    width: 70%;height: 70vh;
+   bottom: 9em;
+   
+    margin: auto;
+    
+   
+}
+.box3{
+    width: 300px;height: 250px;
+    display: inline-block;
+    margin: auto;
+    
+    position: relative;
+    
+}
+    
+.box3 img{
+    width: 300px;height: 250px;
+    border-radius: 50px;
+    display: inline-block;
+   
+
+}
+.box1 .box3 h3{
+    color: var(--color-);
+    text-align: center;
+    top: .5em;
+}
+
+
+.box1 .box3 p{
+   
+    font-size: 20px;
+    line-height: 20px;
+    top: .5em;
+}
+
+
+
+
+.social-login img {
+    width: 24px;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .card {
+   
+    width: 400px;
+    height: 500px;
+   /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom:3em;*/
+    margin: 2em  0 0 10em;
+    border-radius: 20px;
+    background-color: #ffff;
+    padding: 1.8rem;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .title {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+  }
+  .subtitle {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: .5em;
+  }
+  .btn-text {
+    margin: 0;
+  }
+  
+  .social-login {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .google-btn {
+    background: #fff;
+    border: solid 2px rgb(245 239 239);
+    border-radius: 8px;
+    font-weight: bold;
+    display: flex;
+    padding: 10px 10px;
+    flex: auto;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+  }
+  .fb-btn {
+    background: #fff;
+    border: solid 2px rgb(69, 69, 185);
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .or {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(245 239 239);
+    line-height: 0.1em;
+    margin: 25px 0;
+  }
+  .or span {
+    background: #fff;
+    padding: 0 10px;
+  }
+  
+  .email-login {
+    display: flex;
+    flex-direction: column;
+  }
+  .email-login label {
+    color: rgb(170 166 166);
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 15px 20px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .cta-btn {
+    background-color: rgb(69, 69, 185);
+    color: white;
+    padding: 18px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .forget-pass {
+    text-align: center;
+    display: block;
+  }
+  
+
+
+
+
+
+ /* .graph {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+  }*/
+  
+  .chat-container {
+    background: #ece9e6;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+  margin: auto;
+   width: 350px;
+   height: 520px;
+    border-radius: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    overflow: hidden;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    bottom: 31em;
+    left: 30%;
+  }
+  
+  .chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .message {
+    border-radius: 50px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .message.left {
+    padding: 15px 20px 15px 70px;
+    background-color: #fff;
+    border: 2px solid #cccccc;
+    text-align: left;
+  }
+  
+  .message.right {
+    align-self: flex-end;
+    padding: 15px 70px 15px 20px;
+    background-color: var(--color-);
+    color: #fff;
+    text-align: right;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #b8c4cc;
+  }
+  
+  .message.right .avatar {
+    left: auto;
+    right: 10px;
+    border-color: #5C8049;
+  }
+  
+  .message p {
+    margin: 0;
+  }
+  
+  .text_input {
+    font-size: 1rem;
+    position: absolute;
+   
+    bottom: 0;
+    
+    left: 0;
+    right: 0;
+    /* padding: 10px 15px; */
+    width: 100%;
+  }
+
+
+  @media screen and (max-width:600px){
+nav ul{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+nav ul li{
+  margin: 0;
+  padding: .5em;
+
+}
+nav ul li a{
+  color: var(--color1-);
+}
+nav ul li a:hover{
+  background: var(--color1-);
+  color: white;
+  border-radius: 5px;
+ 
+}
+.bx{
+  visibility: visible;
+  display: flex;
+  position: relative;
+float: right;
+bottom: 8.7em;
+color: var(--color1-);
+right: 10%;
+}
+.para{
+  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: var(--color1-);
+    
+    /* left: 10%; */
+    /* right: -10%; */
+    top: 3em;
+    text-decoration: 2px underline;
+
+
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  
+  
+    position: relative;
+    width: 30%;height: 100%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    top: 4em;
+    margin: auto;
+   
+
+}
+.box img{
+  width: 250px;height: 200px;
+  border-radius: 50px;
+  padding: 3px;
+}
+.box4{
+  
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    justify-content: center;
+    width: 100%;height: 100%;
+   
+  
+   margin: .5em auto auto 0;
+  
+   
+    
+}
+ h2{
+    color: var(--color1-);
+    text-align: center;
+    margin: auto;
+    
+}
+ p{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+   
+
+
+
+}
+ .image{
+  display: flex;
+  flex-direction: column;
+  
+  position: relative;
+ width: 300px; 
+  height: 300px;
+ 
+  justify-content: center;
+ 
+  top: 4em;
+  left: 30%;
+}
+ .image img{
+  width: 250px;height: 250px;
+border-radius: 50px;
+
+
+}
+.box1{
+  display: flex;
+  position: relative;
+  width: 70%;height: 70vh;
+ bottom: 3em;
+ 
+  margin: auto;
+  
+ 
+}
+.box3{
+  width: 300px;height: 250px;
+  display: inline-block;
+  margin: auto;
+  
+  position: relative;
+  
+}
+  
+.box3 img{
+  width: 300px;height: 250px;
+  border-radius: 50px;
+  display: inline-block;
+ 
+
+}
+.box1 .box3 h3{
+  color: var(--color-);
+  text-align: center;
+  top: .5em;
+}
+
+
+.box1 .box3 p{
+ 
+  font-size: 20px;
+  line-height: 20px;
+  top: .5em;
+}
+
+
+
+
+.social-login img {
+  width: 24px;
+}
+a {
+  text-decoration: none;
+}
+  
+
+
+ 
+  
+ 
+
+
+
+ 
+    
+  }
+  
+  
+
+
+   
+   
+
+
+
+
+
+  
+  
+  
+   
